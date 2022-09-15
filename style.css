@@ -1,0 +1,109 @@
+.banner {
+  background-image: url("./images/samuele-bertoli-4HNZR1xK41E-unsplash.jpeg");
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 69%;
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.text-block {
+  position: absolute;
+  color: white;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  font-weight: lighter;
+  line-height: 1.6;
+}
+
+.container {
+  margin: 50px auto;
+  width: 60%;
+}
+
+.headers h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #A0A0A0;
+  font-size: 1.5em;
+}
+
+
+.button {
+  margin: 35px 0;
+}
+
+.button a {
+  color: white;
+  background-image: linear-gradient(to bottom right,
+  rgba(46, 54, 74, 0.7),
+  rgba(93, 91, 102,0.5));
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: none;
+  font-weight: lighter;
+  cursor: pointer;
+  padding: 0.3rem 0.3rem;
+
+}
+
+.button a:hover {
+  background-image: linear-gradient(to bottom right,
+  rgba(67, 165, 85, 0.7),
+  rgba(93, 91, 102, 0.5));
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 50px auto;
+    width: 80%;
+  }
+
+  body {
+    color: #494949;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  body {
+    color: #494949;
+    font-size: 22px;
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    line-height: 1.6;
+  }
+
+  .headers h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #A0A0A0;
+    font-size: 1.5em;
+  }
+}
